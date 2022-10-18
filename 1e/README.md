@@ -2,7 +2,7 @@
 
 ## Overview
 
-The 1E Datadog Integration is an API-based integration that collects metrics from 1E products and forwards them to your Datadog account. These metrics are visualized on the out-of-the-box dashboard, and can also be used to  create your own visualizations. 
+The 1E Datadog Integration is an API-based integration that collects metrics from 1E products and forwards them to your Datadog account. These metrics are visualized on the out-of-the-box dashboard, and can also be used to create your own visualizations.
 
 ## Setup
 
@@ -10,20 +10,13 @@ The 1E Datadog Integration is an API-based integration that collects metrics fro
 
 Getting set up with the 1E Datadog integration is simple, and requires the following:
 
-1. Go to your [Datadog Integrations page][1] and click on the 1E tile.
+1. After clicking "**Install Integration**" on this tile, go to your [Datadog API Keys Management page][2] and create an API key.
 
-2. Click the **Configuration** tab and click **Install Integration** at the bottom.
+2. Determine your [Datadog site][6] to use.
 
-3. Go to your [Datadog API Keys Management page][2] and create an API key.
+3. Get in touch with [1E support](mailto:support@1e.com) with the Datadog API key and site to activate your 1E Datadog integration.
 
-4. Determine your [Datadog site][6] by looking at your browser's address bar:
-
-   - If the domain name is `app.datadoghq.com`, your site is `US`.
-   - If the domain name is `app.datadoghq.eu`, your site is `EU`.
-
-5. Send an email to [1E support](mailto:support@1e.com) with the Datadog API key and site to activate your 1E Datadog integration.
-
-6. 1Es team will be in touch once your account has been set up. Once it's been setup, navigate to the [Metrics Explorer][7] within Datadog to see metrics begin to flow in.
+4. 1Es team will be in touch once your account has been set up. Once it's been setup, navigate to the [Metrics Explorer][7] within Datadog to see metrics begin to flow in.
 
 ## Data Collected
 
