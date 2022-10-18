@@ -2,7 +2,7 @@
 
 ## Overview
 
-The 1E Datadog Integration is an API-based integration that collects metrics from 1E products and forwards them to your Datadog account. You can use these metrics to take advantage of the out-of-the-box dashboard or you can create your own visualizations.
+The 1E Datadog Integration is an API-based integration that collects metrics from 1E products and forwards them to your Datadog account. These metrics are visualized on the out-of-the-box dashboard, and can also be used to  create your own visualizations. 
 
 ## Setup
 
