@@ -8,7 +8,7 @@ The 1E Datadog Integration is an API-based integration that collects metrics fro
 
 ### Configuration
 
-Getting set up with the 1E Datadog integration is as simple as emailing a Datadog API key and site to the 1E Support team. There's no further configuration required.
+Getting set up with the 1E Datadog integration is simple, and requires the following:
 
 1. Go to your [Datadog Integrations page][1] and click on the 1E tile.
 
