@@ -51,7 +51,7 @@ You will need to run the PowerShell Toolkit command similar to:
 
 ```powershell
 Add-TachyonAxmDatadogConfiguration `
--DatadogKey e78236d262c7008c263f1e9c61a671e3 `
+-DatadogKey YOUR_DATADOG_API_KEY `
 -DatadogSite https://myserver.mydomain.local `
 -Enable $true
 ```
@@ -77,7 +77,7 @@ Settings' \
 --data-raw '{
  "Name": "AxmDatadogConfiguration",
  "Usage": 0,
- "Value": "{ \"ApiKey\":\"e78236d262c7008c263f1e9c61a671e3\",
+ "Value": "{ \"ApiKey\":\"YOUR_DATADOG_API_KEY\",
 \"SiteName\":\"https://app.datadoghq.eu/\" }"
 }'
 curl --location --request POST 'https://tcnsvr.vmdc.local/consumer/
