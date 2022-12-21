@@ -4,7 +4,13 @@
 
 At [1E][1], we reimagine how technology serves people and create new ways for IT to shape the future of work.
 
-The 1E Datadog Integration is an API-based integration that collects metrics from 1E products and forwards them to your Datadog account. These metrics are visualized on the out-of-the-box dashboard, and can also be used to create your own visualizations.
+The 1E Datadog Integration is an API-based integration that collects metrics from 1E products and forwards them to your Datadog account.
+
+Integrating Datadog with 1E enables IT administrators to:
+
+- View device data and related information in one place in Datadog
+- View Digital Employee Experience (DEX) score and related information
+- Build a customizable dashboard inside Datadog for customer specific insights.
 
 ## Setup
 
