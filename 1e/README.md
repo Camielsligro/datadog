@@ -25,9 +25,12 @@ Steps required to configure your integration between Datadog and 1E.
 
 #### Installing the 1E Dashboard
 
-You can install the 1E Dashboard from the Datadog Marketplace at any time in this process.  
-To install, navigate to **Integrations** in your Datadog instance, search for **1E**, and open **1E Dashboard**.  
-In 1E Dashboard, click on **Install Integration**.  
+You can install the 1E Dashboard from the Datadog Marketplace at any time in this process.
+
+To install, navigate to **Integrations** in your Datadog instance, search for **1E**, and open **1E Dashboard**.
+
+In 1E Dashboard, click on **Install Integration**.
+
 The dashboard's tiles will show data after you have configured integration with 1E.
 
 #### Creating a Datadog API Key
@@ -35,7 +38,7 @@ The dashboard's tiles will show data after you have configured integration with 
 To set up the integration with 1E, you need to upload a Datadog API key and site URL to your 1E
 installation, using the 1E PowerShell Toolkit or Postman.
 
-1. To get started, go to the [Datadog API Keys Management page][3], where you can create an API key
+1. To get started, go to the [Datadog APIs page][3], where you can create an API key
 
 2. Determine your [Datadog API site URL][4] with reference to Datadog documentation
 
@@ -52,7 +55,7 @@ You will need to run the PowerShell Toolkit command similar to:
 ```powershell
 Add-TachyonAxmDatadogConfiguration `
 -DatadogKey YOUR_DATADOG_API_KEY `
--DatadogSite https://myserver.mydomain.local `
+-DatadogSite https://app.datadoghq.eu/ `
 -Enable $true
 ```
 
